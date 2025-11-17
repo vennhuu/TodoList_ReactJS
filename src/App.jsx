@@ -3,6 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// component = html + css + js
+const MyComponent = () => {
+  return (
+    <div> Phan Hữu Phước & vennhuu update </div>
+  );
+}
 const App = () => {
   const [count, setCount] = useState(0)
 
@@ -17,6 +23,7 @@ const App = () => {
         </a>
       </div>
       <h1>Hello World & Phan Phuoc</h1>
+      <MyComponent />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
